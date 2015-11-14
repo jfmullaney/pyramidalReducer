@@ -1,6 +1,14 @@
 # Pyramidical reducer
 
-Takes a sequence of numbers and reduces its component integers down through addition down to a single integer.
+Takes the Tetrahedral (or triangular pyramidal) numbers and reduces them down to a single integer (take a sum of all their component digits)
+
+#### Tetrahedral numbers
+![Tetrahedral numbers](http://www.geocities.ws/millers_math/famous/tetra.gif)
+
+#### Further reading
+* https://en.wikipedia.org/wiki/Tetrahedral_number
+* http://www.urbanninja.ninja/files/uncategorized/the-riddle-of-the-nines-the-nick-clark-sequence
+* https://oeis.org/A000292
 
 ## Install
 
@@ -19,10 +27,10 @@ You will be prompted for `min` and `max` values
 Each index between the `min` and `max` values will be output to a table with:
 
 * Index - The current iteration
-* Pyramidal sum - As defined at http://www.urbanninja.ninja/files/uncategorized/the-riddle-of-the-nines-the-nick-clark-sequence/ (formula taken from https://oeis.org/A000292)
+* Pyramidal sum - (formula taken from https://oeis.org/A000292)
 * Reduced - the broken down addition of the sum
 * Value - the final sum of all the reducer
-* 
+
 ## Example
 
 ```
