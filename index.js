@@ -4,7 +4,7 @@ var Table = require('cli-table');
 
 prompt.start();
 prompt.get(["min","max"], function(err, result){
-  renderSequence( result.min, result.max);
+  renderSequence( Number(result.min), Number(result.max));
 })
 
 function renderSequence(min, max){
@@ -20,7 +20,7 @@ function renderSequence(min, max){
   //Loop through each number
   for( var n=min; n<=max; n++){
     //Formula taken from https://oeis.org/A000292
-    var pyramidalSum = n*(n+1)*(n+2)/6;
+    var pyramidalSum = ((n*(n+1))*(n+2))/6;
 
     var reducerString = pyramidalSum.toString(10).split("").join("+");
     var reduced = reduceNumber(pyramidalSum);
