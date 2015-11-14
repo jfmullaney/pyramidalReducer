@@ -1,6 +1,6 @@
 # Pyramidical reducer
 
-Takes a sequence of numbers and reduces its component integers down through addition down to a single integer.
+Takes the Tetrahedral (or triangular pyramidal) numbers and reduces them down to a single integer
 
 ## Install
 
