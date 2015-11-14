@@ -4,8 +4,6 @@ Takes a sequence of numbers and reduces its component integers down through addi
 
 ## Install
 
-## Install
-
 Install [Node.js](https://nodejs.org/en/) and ensure that `npm` is added to your environment `PATH`
 
 Run `npm install`
