@@ -28,7 +28,7 @@ Each index between the `min` and `max` values will be output to a table with:
 ```
 $ npm run start
 
-> nicksnumbers@1.0.0 start c:\wamp\www\test\nicksnumbers
+> PyramidicalReducer@1.0.0 start
 > node index.js
 
 prompt: min:  1
