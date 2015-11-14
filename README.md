@@ -22,7 +22,7 @@ Each index between the `min` and `max` values will be output to a table with:
 * Pyramidal sum - As defined at http://www.urbanninja.ninja/files/uncategorized/the-riddle-of-the-nines-the-nick-clark-sequence/ (formula taken from https://oeis.org/A000292)
 * Reduced - the broken down addition of the sum
 * Value - the final sum of all the reducer
-* 
+
 ## Example
 
 ```
