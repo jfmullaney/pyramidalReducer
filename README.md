@@ -6,7 +6,7 @@ https://en.wikipedia.org/wiki/Tetrahedral_number
 http://www.urbanninja.ninja/files/uncategorized/the-riddle-of-the-nines-the-nick-clark-sequence
 https://oeis.org/A000292
 
-#### 
+#### Tetrahedral numbers
 ![Tetrahedral numbers](http://www.geocities.ws/millers_math/famous/tetra.gif)
 
 ## Install
