@@ -1,0 +1,17 @@
+{
+  "name": "nicksnumbers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "lodash": "^3.10.1",
+    "prompt": "^0.2.14"
+  }
+}
