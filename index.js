@@ -43,6 +43,9 @@ function renderSequence(min, max){
       table = new Table(tblOpts);
     }
   }
+
+  //Ensure we print out any existing table
+  console.log(table.toString());
 }
 
 
